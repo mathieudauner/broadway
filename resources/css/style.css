@@ -1,15 +1,14 @@
 body {
   font-family: Helvetica;
   text-align: center;
-  color: gray;
+  color: black;
 }
 
 .header {
   background-image: url(../images/the-flatiron-building.png);
-  background-position: left center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.5;
   background-attachment: local;
   color: white;
 }
@@ -27,8 +26,9 @@ a {
   color: white;
 }
 
-.process {
-  color: gray;
+.process h2 {
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .process-subheading h3 {
@@ -43,10 +43,9 @@ a {
 .origin {
   background-image: url(../images/the-flatiron-building.png);
   height: 30px;
-  background-position: left center;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.5;
-  background-attachment: local;
   font-size: 23px;
   font-weight: bold;
   color: white;
@@ -57,7 +56,28 @@ a {
   text-align: left;
 }
 
-.footer h6,span {
+.footer h6, span {
   color: white;
   display: inline;
   }
+
+.identify {
+    background-image: url(../images/identify.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 55px;
+  }
+
+.understand {
+    background-image: url(../images/understand.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 65px;
+  }
+
+.execute {
+  background-image: url(../images/execute.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 55px;
+}
